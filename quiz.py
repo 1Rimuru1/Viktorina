@@ -29,7 +29,7 @@ def save_answers():
     if check_answer(quest_id, answer):
         session['answers'] += 1
 
-
+#total
 
 def question_form(question):
     answers_list = [question[2], question[3], question[4], question[5]]
